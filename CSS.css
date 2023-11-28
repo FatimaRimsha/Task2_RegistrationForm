@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: "./niagara_falls.jpg";
+   }
+   
+   form {
+    width: 300px;
+    margin: 0 auto;
+   }
+   
+   input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+   }
+   
+   input[type="submit"] {
+    background-color: red;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+   }
+   
+   input[type="submit"]:hover {
+    opacity: 0.8;
+   }
+   
+   h2 {
+    color: grey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    text-align: center;
+   }
+/*Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  
+  /* Add some content at the bottom of the video/page */
+  .content {
+    position: fixed;
+    align-items: center;
+    bottom: 0;
+    top: 0;
+    left: -1%;
+    right: -1%;
+    background: rgba(0, 0, 0, 0.10);
+    color: #f1f1f1;
+    width: 95%;
+    padding: 50px 50px 50px 50px;
+  }
+  
